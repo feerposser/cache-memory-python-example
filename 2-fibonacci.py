@@ -21,7 +21,8 @@ def fibonacci(n):
 start = time.time()
 
 for n in range(1, 10):
-    print(n, ":", fibonacci(n))
+    # print(n, ":", fibonacci(n))
+    fibonacci(n)
 
 stop = time.time()
 print("time:", stop - start)
